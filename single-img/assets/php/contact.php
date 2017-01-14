@@ -7,9 +7,9 @@
 // --------------------------------------------------
 // follow the commend to edit :)
 //
-  $email = 'YOUR_EMAIL_ADDRESS'; // Your email address
-  $name = 'YOUR_NAME'; // Your name
-  $subject = 'Website Contact Message'; // Subject line
+  $email = 'mat.beale@exonar.com'; // Your email address
+  $name = 'Mat'; // Your name
+  $subject = 'Someone has registered for SAR'; // Subject line
   $body = '
   <html>
     <head>
@@ -18,7 +18,6 @@
     <body>
       <p><strong style="width: 80px;">Name: </strong>' . $_POST['name'] . '</p>
       <p><strong style="width: 80px;">Email: </strong>' . $_POST['email'] . '</p>
-      <p><strong style="width: 80px;">Message: </strong>' . $_POST['message'] . '</p>
     </body>
   </html>
   ';

@@ -4669,7 +4669,7 @@
 }
 
 .block-invert {
-  background-color: #212121;
+  background-color: #333333;
   color: white;
 }
 
@@ -5050,6 +5050,26 @@
 .block-warning {
   background-color: #fbb03b;
   color: white;
+}
+
+.block-gray {
+  background-color: #f4f4f4;
+}
+
+.block-green {
+  background-color: #B9D42D;
+}
+
+.block-orange {
+  background-color: #F9723D;
+}
+
+.block-yellow {
+  background-color:  #FFF113;
+}
+
+.block-dark {
+  background-color: #333;
 }
 
 .block-warning:not( > .block-default) h1,
@@ -6479,9 +6499,9 @@ form._default textarea {
 .is-scroll .site-header {
 background-color: rgba(33, 33, 33, 0.7);}
 
-@media (max-width: 1199px) {
+@media (max-width: 768px) {
   .site-header {
-    background-color: #212121;
+  background-color: rgba(33, 33, 33, 0.7);
   }
 }
 
