@@ -6,3 +6,84 @@
  * --------------------------------------------------
  *
  */
+ .how-number {
+   width: 50px;
+   height: 50px;
+   padding: 5px 10px;
+   font-size: 18px;
+   line-height: 1.33;
+   border-radius: 25px;
+   color: white;
+   line-height: 1;
+   display: inline-block;
+   float: left;
+   margin-right: 20px;
+ }
+
+ .how-text {
+   text-align: left;
+   margin-top: 5px;
+   text-transform: none;
+ }
+
+.pink {
+  background-color: #F20081
+}
+
+.blue {
+  background-color: #00BEF2
+}
+
+.orange {
+  background-color: #F9723D
+}
+
+.green {
+  background-color: #B9D42D
+}
+
+.yellow {
+  background-color: #FFF113
+}
+
+
+.top-buffer { margin-top:20px; }
+
+.faq-text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+#logo {color: #00BEF2 !important;}
+@-webkit-keyframes colours {
+     0% {color: #00BEF2;}
+     25% {color: #F20081;}
+     50% {color: #00BEF2;}
+     75% {color: #F20081;}
+    100% {color: #00BEF2;}
+
+}
+@-moz-keyframes colours {
+     0% {color: #00BEF2;}
+     25% {color: #F20081;}
+     50% {color: #00BEF2;}
+     75% {color: #F20081;}
+    100% {color: #00BEF2;}
+
+}
+
+#logo {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: colours;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-direction: normal;
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: colours;
+    -moz-animation-timing-function: ease;
+}
